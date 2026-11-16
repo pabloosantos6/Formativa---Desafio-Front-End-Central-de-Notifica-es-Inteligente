@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.card {
+    border: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.list-group-item {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 576px) {
+    main.container {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2 {
+        font-size: 1.35rem;
+    }
+
+    .d-flex .btn {
+        width: 100%;
+    }
+}
